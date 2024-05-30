@@ -3,12 +3,12 @@ class Solution {
         if(n==0 || n==1){
             return n;
         }
-        int s = 1;
-        int e = n;
-        int ans=0;
+        long s = 1;
+        long e = n;
+        long ans=0;
 
         while(s<=e){
-            int mid = s+(e-s)/2;
+            long mid = s+(e-s)/2;
 
             if(mid*mid == n){
                 return (int) mid;
