@@ -11,7 +11,8 @@ class Solution {
             }else{
                 l[i]=Math.max(height[i],l[i-1]);
             }
-        }
+        }   
+        
         for(int i=n-1; i>=0; i--){
             if(i==n-1){
                 r[i]=height[i];
